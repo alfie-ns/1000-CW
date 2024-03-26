@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build all tasks",
+        "type": "shell",
+        "command": "/usr/bin/clang++", 
+        "args": [
+          "-std=c++17",
+          "-g",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/task1/task1.cpp",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/task1/task1-functions.cpp",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/task2/task2.cpp",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/task2/task2-functions.cpp",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/task3/task3.cpp",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/task3/task3-functions.cpp",
+          "-o",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/build_output", 
+          "-I",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/task1",
+          "-I",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/task2",
+          "-I",
+          "/Users/alfienurse/Library/CloudStorage/GoogleDrive-alfienurse@gmail.com/My Drive/Uni/Undergrad/Year_1/Semester_1/COMP1000/C++/C1W1/w1-set-exercises-alfie-ns-2/tasks/task3"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Compiler: clang++"
+      }
+    ]
+  }
+  
