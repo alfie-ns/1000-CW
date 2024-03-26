@@ -1,0 +1,2 @@
+- [x] query database with '-'s on 01-querydb.exe
+- [ ] succesfully add a record

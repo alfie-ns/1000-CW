@@ -1,0 +1,27 @@
+@echo off
+
+echo -------------
+echo test showAll: 
+pause
+.\01-querydb.exe -db computing.txt -showAll
+echo -------------
+pause
+
+echo ---------------
+echo test use -n, -g and -p
+pause
+.\01-querydb.exe -db computing.txt -sid 12346
+.\01-querydb.exe -db computing.txt -sid 12346 -n
+.\01-querydb.exe -db computing.txt -sid 12346 -g
+.\01-querydb.exe -db computing.txt -sid 12346 -p
+echo ----------------
+
+echo ---------------
+echo test addRecord:
+echo ---------------
+
+pause
+
+
+
+
